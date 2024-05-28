@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         drawTriangle(on: centerView, numberOfEquilateral: 3)
     }
     
+    //MARK: - Draw Equilateral Triangle
+    ///  This method help to draw equilateral triangle with squares
+    /// - Parameters:
+    ///   - view: UIView as parameter
+    ///   - numberOfEquilateral: Int as number of equilateral Triangle
     func drawTriangle(on view: UIView, numberOfEquilateral: Int) {
         
         var mainFrame = view.frame //Main view frame

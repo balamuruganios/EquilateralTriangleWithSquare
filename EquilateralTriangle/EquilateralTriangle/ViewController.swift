@@ -69,11 +69,6 @@ class ViewController: UIViewController {
             mainViewHeightWidth = squareRect.width //Updating view width
         }
         
-       
-        
-        
     }
-    
-   
 }
 
